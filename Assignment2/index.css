@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+body {
+  background-color: #d4e0e7;
+  margin: 0;
+  padding: 0;
+}
+.sign_up2 {
+  display: none;
+}
+.nav-details {
+  display: none;
+  justify-content: space-between;
+}
+main {
+  padding-top: 100px;
+}
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 2em;
+  background-color: white;
+  padding: 50px 80px;
+}
+
+.container input {
+  padding: 7px;
+  width: 100%;
+}
+.sign_up {
+  margin-left: 130px;
+}
+.first-sec > div > div:nth-child(1) {
+  width: 40vw;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.hero-details2 {
+  display: none;
+}
+.first-sec > div > div:nth-child(1) h3 {
+  padding: 10px 0;
+}
+.card-reg-details {
+  display: flex;
+  gap: 1em;
+}
+.forms {
+  padding: 10px;
+  width: 50%;
+  box-shadow: rgba(76, 79, 82, 0.2) 0px 8px 24px;
+}
+.forms p {
+  text-align: center;
+}
+#gender-sel select {
+  width: 13em;
+}
+.forms select {
+  width: 100%;
+  padding: 7px;
+}
+.dob input {
+  width: 13em;
+}
+.forms button {
+  width: 100%;
+  padding: 7px;
+  background-color: #2ec4b6;
+  border: none;
+}
+.forms button a {
+  text-decoration: none;
+}
+@media (max-width: 1150px) {
+  .dob input {
+    width: 12em;
+  }
+  #gender-sel select {
+    width: 12em;
+  }
+}
+@media (max-width: 1097px) {
+  .dob input {
+    width: 11em;
+  }
+  #gender-sel select {
+    width: 11em;
+  }
+}
+@media (max-width: 1017px) {
+  .dob input {
+    width: 10em;
+  }
+  #gender-sel select {
+    width: 10em;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+  .sign_up {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 945px) {
+  .dob input {
+    width: 9em;
+  }
+  #gender-sel select {
+    width: 9em;
+  }
+  main {
+    padding-top: 50px;
+  }
+
+  @media (max-width: 900px) {
+    .container {
+      width: 95%;
+      padding: 50px 40px;
+    }
+    .sign_up {
+      margin-left: 20px;
+    }
+  }
+  .dob input {
+    width: 13em;
+  }
+  #gender-sel select {
+    width: 13em;
+  }
+}
+@media (max-width: 860px) {
+  .container {
+    padding: 50px 20px;
+  }
+  .dob input {
+    width: 13em;
+  }
+  #gender-sel select {
+    width: 13em;
+  }
+}
+@media (max-width: 810px) {
+  .dob input {
+    width: 12em;
+  }
+  #gender-sel select {
+    width: 12em;
+  }
+}
+@media (max-width: 754px) {
+  .dob input {
+    width: 11em;
+  }
+  #gender-sel select {
+    width: 11em;
+  }
+}
+@media (max-width: 728px) {
+  .dob input {
+    width: 10em;
+  }
+  #gender-sel select {
+    width: 10em;
+  }
+}
+@media (max-width: 660px) {
+  .container {
+    padding: 20px 10px;
+  }
+}
+@media (max-width: 650px) {
+  .dob input {
+    width: 9em;
+  }
+  #gender-sel select {
+    width: 9em;
+  }
+}
+@media (max-width: 580px) {
+  .dob input {
+    width: 8em;
+  }
+  .sign_up {
+    margin-left: 5px;
+  }
+  #gender-sel select {
+    width: 8em;
+  }
+  .container {
+    width: 100%;
+  }
+  main {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 511px) {
+  .dob input {
+    width: 7em;
+  }
+  #gender-sel select {
+    width: 7em;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    display: block;
+    background-color: #d4e0e7;
+  }
+  .first-sec span {
+    display: none;
+  }
+  .nav-details {
+    display: flex;
+    padding: 0 10px;
+  }
+  main {
+    padding-top: 0px;
+  }
+  .sign_up2 {
+    display: block;
+    padding-left: 10px;
+  }
+  .container {
+    padding: 10px 10px;
+  }
+  .first-sec > div > div:nth-child(1) {
+    background-color: #d4e0e7;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .forms {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+  .dob input {
+    width: 100%;
+  }
+  #gender-sel select {
+    width: 100%;
+  }
+  .card-reg-details {
+    display: block;
+  }
+  .card-register > div:nth-child(1) > div:nth-child(1) {
+    padding-bottom: 10px;
+  }
+
+  .card-register > div:nth-child(5) > div:nth-child(1) {
+    padding-bottom: 10px;
+  }
+  #gender-sel {
+    padding-bottom: 10px;
+  }
+  .hero-details1 {
+    display: none;
+  }
+  .hero-details2 {
+    display: block;
+  }
+}

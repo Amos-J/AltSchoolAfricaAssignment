@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #f5f8fa;
+  }
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f5f8fa;
+    font-size: 0.6em;
+    align-items: center;
+    border-bottom: 2px solid black;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2em;
+    align-items: center;
+  }
+  nav ul button {
+    font-size: 1em;
+    padding: 3px 5px;
+  }
+  .meun-toggle {
+    font-size: 3em;
+    display: none;
+  }
+  /*------------------------- MAIN_SECTION--------------------------- */
+  main {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: 0 0 5px #999;
+    box-shadow: o o 5px #999;
+    box-shadow: 0 0 5px #999;
+  }
+  main button {
+    padding: 10px;
+    width: 100%;
+    background-color: #038e7d;
+    border: none;
+  }
+  main button a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .first-sec {
+    padding: 20px;
+    background-color: white;
+    width: 65%;
+  }
+  .first-sec span {
+    font-size: 2em;
+  }
+  input {
+    background-color: #e4ebf0;
+    border: none;
+    padding: 5px;
+  }
+  .input-email input {
+    width: 100%;
+  }
+  .input-name {
+    display: flex;
+    gap: 2em;
+  }
+  .input-name input {
+    width: 100%;
+  }
+  .input-lname input {
+    width: 100%;
+  }
+  .form-card input {
+    width: 100%;
+  }
+  .second-sec {
+    width: 200px;
+    width: 35%;
+    padding: 20px;
+    background-color: #1179bf;
+    color: white;
+  }
+  .second-sec .rate {
+    font-size: 3em;
+  }
+  .second-sec ul {
+    line-height: 1.5;
+    list-style-type: none;
+  }
+  .second-sec a {
+    text-decoration: none;
+    color: white;
+  }
+  .profile-details {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    gap: 1em;
+  }
+  .profile-details img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  footer {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .btm-footer {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .btm-footer a {
+    text-decoration: none;
+  }
+  @media (max-width: 1000px) {
+    main {
+      width: 80%;
+    }
+  }
+  @media (max-width: 616px) {
+    main {
+      width: 95%;
+    }
+  }
+  @media (max-width: 425px) {
+    nav ul {
+      display: none;
+    }
+    .meun-toggle {
+      display: block;
+    }
+    .second-sec {
+      display: none;
+    }
+    .first-sec {
+    margin: auto;
+    width: 90%;
+  }
